@@ -38,15 +38,19 @@ Lastly, I can easily select a row in the matrix x. In this example I will select
 
 # Compare Results to Built-In R Function [30 points]
 
-According to the tests ran the built in function of log gamma in R performed the best. This can be attributed to the fact that the built in log gamma function is executed using C code. Per the source code the implementation is C code from a fortran subroutine. R is an interpreted language which results in overhead when executing code. While C is a compiled language.
+According to the tests ran the built in function of log gamma in R ,sum_lgamma(), grew the slowest.  This can be attributed to the fact that the built in log gamma function is executed using C code. Per the source code the implementation is C code from a fortran subroutine. R is an interpreted language which results in overhead when executing code. While C is a compiled language. 
 
 ![Imgur](https://i.imgur.com/kGK6vIt.png)
 
+The sum_log_gamma_loop implementation grew the fastest while the sum_log_gamma_recursive function grew the second fastest. From the graphs both are exponential. The slowest method was the recursive function according to the data. The execution times were plotted on a log-log plot to determine the exponential constant. 
+
 ![Imgur](https://i.imgur.com/QUmwe4h.png)
+
+From graph 1 it is hard to determine the time growth of the built in log gamma function. At first it looks like its constant time. However, in the below graph the built in log gamma function execution time was plotted with n =10,000.  From the graph it shows that the sum_lgamma function is linear. 
 
 ![Imgur](https://i.imgur.com/IlbeJWE.png)
 
-## Soruces 
+## Sources 
 Soruce code for built in lgamma function in R 
 
 https://github.com/wch/r-source/blob/af7f52f70101960861e5d995d3a4bec010bc89e6/src/nmath/lgamma.c
