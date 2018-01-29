@@ -40,9 +40,14 @@ Lastly, I can easily select a row in the matrix x. In this example I will select
 
 According to the tests ran the built in function of log gamma in R performed the best. This can be attributed to the fact that the built in log gamma function is executed using C code. Per the source code the implementation is C code from a fortran subroutine. R is an interpreted language which results in overhead when executing code. While C is a compiled language.
 
+![Imgur](https://i.imgur.com/kGK6vIt.png)
 
-## soruces 
-Soruce code for lgamma in R 
+![Imgur](https://i.imgur.com/QUmwe4h.png)
+
+![Imgur](https://i.imgur.com/IlbeJWE.png)
+
+## Soruces 
+Soruce code for built in lgamma function in R 
 
 https://github.com/wch/r-source/blob/af7f52f70101960861e5d995d3a4bec010bc89e6/src/nmath/lgamma.c
 
