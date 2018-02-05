@@ -6,7 +6,9 @@ I wanted to see which question had the most missing data. This can help with enh
 
 ![Imgur](https://i.imgur.com/ZD9uixa.png)
 
-#Processing the Data 
+---------------------------------------
+
+# Processing the Data 
 To calculate the unanswered questions I needed to convert data with NAs to an empty string. This was done using the is.na function. 
 ```
 ac1[is.na(ac1)]<-""
