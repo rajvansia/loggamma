@@ -75,7 +75,7 @@ The distribution of the color of diamonds is semi normal. With the lower frequen
 
 ![Imgur](https://i.imgur.com/A1KVp1h.png)
 
-The distribution of diamond carat is right skewed there is a higher frequency of diamonds that are lower carat. It can be inferred that higher carat diamonds are larger and more rare. 
+The distribution of diamond carat is right tail skewed there is a higher frequency of diamonds that are lower carat. It can be inferred that higher carat diamonds are larger and more rare. 
 
 ![Imgur](https://i.imgur.com/uplMZZ1.png)
 
