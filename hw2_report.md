@@ -4,8 +4,18 @@
 
 # Question 1 
 
-The below graph shows the box plot for each state showing the distribution of percentage of people with a professional education. The graph depicts that OH has the lowest median of people with a professional education while IN has the highest. The spread is roughly the same amongst the states with the interquartile range being the same. We can hypothesizes that the counties with the highest percentage are cities where large cooperation's or colleges are located. 
+The below graph shows the box plot for each state showing the distribution of percentage of people with a professional education. The graph depicts that WI has the lowest median of people with a professional education while IN has the highest. The spread is roughly the same amongst the states with the interquartile range being the same. We can hypothesizes that the counties with the highest percentage are cities where large cooperation's or colleges are located. 
 The states that have the most outlying counties are MI and IL.  MI stands out with a county that has around 21% of people with professional degrees. 
+
+The state with the highest percentage of population with a professional education is IN with a mean of 5.05%
+
+The lowest is WI with a mean of 4.04%
+
+The above was computed by taking the mean for every county within the state on the % of people with a professional degree.
+
+![Imgur](https://i.imgur.com/uMLsB64.png)
+
+Can you point out which state has the lowest and highest percentage of population with a professional education? If not, explain why. You may interpret this in one of two ways: A) compute a summary statistic for each state (e.g. combined mean) and compare that across states; or, B) directly compare the percprof distributions across states. Support your claim with additional statistics/graph(s) here, if necessary.
 
 ![Imgur](https://i.imgur.com/Pv6a404.png)
 
