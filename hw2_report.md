@@ -45,8 +45,28 @@ Example
 QQPlot- Is used to compare two datasets to see how related they are and if they have similar distributions. It can also help determine the tail behavior.  If two data sets have the same distribution then it will fall along the y=x line. 
 Example
  
-
+## Question 4
  
+ The 1,000 data point scatter plot shows very sparse data with a lot of empty white space. While the 10,000 data point scatter plot has more data points and displays less white space. There is also more information and detail needed to create the 10,000 point graph. 
+ 
+The PDF and PS file types show a  linear increase in file size when N increases. The PS file time has a steeper slope than PDF. The PDF file type grows the lowest in size. JPEG and PNG demonstrate a logarithmic increase when N gets bigger.  When N gets to 5000 JPEG  has a larger file size than PNG however when N is lower than 5000  JPEG and PNG have similar file size. The JPEG file type has the biggest file size compared to the other file types.
+
+## Question 5
+
+The distribution of the color of diamonds is semi normal. With the lower frequency of diamonds being  color i-j, which are low quality. While there is also a low frequency of D which is the highest of quality. 
+
+
+
+The distribution of diamond carat is right skewed there is a higher frequency of diamonds that are lower carat. It can be inferred that higher carat diamonds are larger and more rare. 
+
+
+
+The distribution of diamond price is heavily right tail skewed where the higher frequencies occur at a lower price. This can be attributed to the fact that higher priced diamonds are more rare. 
+
+
+
+Below is the pariwise plot for the diamonds data set comparing color, carat and price. There is a positive exponential relationship between carat and price. I wanted to investigate further and plotted carat vs price and colored each data point depending on the color ranking of the diamond. This allowed to determine how color affected price for each carat size. It is interesting to see that the higher quality color D and E have a higher price for the same carat size compared to other colors. What is also interesting is that there is a lower frequency of higher quality colored diamonds at larger carat sizes. Most of the higher quality color diamonds are at lower carats indicating that it might be more rare to have both a large and flawless diamond. 
+
  
 
 
