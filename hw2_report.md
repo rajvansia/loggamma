@@ -81,7 +81,7 @@ The distribution of diamond carat is right skewed there is a higher frequency of
 
 The distribution of diamond price is heavily right tail skewed where the higher frequencies occur at a lower price. This can be attributed to the fact that higher priced diamonds are more rare. 
 
-#[Imgur](https://i.imgur.com/IjwPAQY.png)
+![Imgur](https://i.imgur.com/IjwPAQY.png)
 
 Below is the pariwise plot for the diamonds data set comparing color, carat and price. There is a positive exponential relationship between carat and price. I wanted to investigate further and plotted carat vs price and colored each data point depending on the color ranking of the diamond. This allowed to determine how color affected price for each carat size. It is interesting to see that the higher quality color D and E have a higher price for the same carat size compared to other colors. What is also interesting is that there is a lower frequency of higher quality colored diamonds at larger carat sizes. Most of the higher quality color diamonds are at lower carats indicating that it might be more rare to have both a large and flawless diamond. 
 
