@@ -44,17 +44,17 @@ Describe the different elements of a Box Plot and how they illustrate different 
 When would you use a Box Plot, a Histogram, vs. a QQPlot to graphically summarize data? Describe the primary purpose and mention 1 example use case for each type of plot.
 
 Box Plot - Box plots help to visualize how spread out the data is. It can also demonstrate outliers. 
-Example
+Example case could be to view the outliers of counties with higher % professsional degrees. 
 
 ![Imgur](https://i.imgur.com/RF9y23h.png)
   
 Histogram - Shows the distribution of the data. It displays if a dataset is normally distributed or skewed to a partiular side. 
-Example
+Example use case can see how the distribution of diamond prices are in a dataset. One can determine if they are normally distributed or skewed. 
 
 ![Imgur](https://i.imgur.com/SYchxCf.png)
   
 QQPlot- Is used to compare two datasets to see how related they are and if they have similar distributions. It can also help determine the tail behavior.  If two data sets have the same distribution then it will fall along the y=x line. 
-Example
+Example use case can help determine if data on counties and their % of people with college degrees came from a similar distribution for two different states. 
 
 ![Imgur](https://i.imgur.com/hBrlaXS.png)
  
