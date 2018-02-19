@@ -1,11 +1,11 @@
 ### rvrv3
 ### Raj Vansia 
 
-The time complexity of ***log_factorial() is O(N)*** that is because the execution time will grow linearly with respect to the size of N. For each iteration, N will decrement by 1 until it reaches 1. So at worst case the code will execute N times.
+The time complexity of ***log_factorial(N) is O(N)*** that is because the execution time will grow linearly with respect to the size of N. For each iteration, N will decrement by 1 until it reaches 1. So at worst case the code will execute N times.
 
-The time complexity of ***sum_log_factorial is  O(N^2)*** because there is a outside loop that iterates  for each N. Then for each i in the loop it will then enter the log factorial function which has a time complexity of O(N) as noted above. So we multiply the two complexities and get O(N^2) 
+The time complexity of ***sum_log_factorial(N) is  O(N^2)*** because there is a outside loop that iterates  for each N. Then for each i in the loop it will then enter the log factorial function which has a time complexity of O(N) as noted above. So we multiply the two complexities and get O(N^2) 
 
-The time complexity of the ***Fibonacci() is O(2^n)*** . This is because the function is using recursion. The number of calls the recursion function executes is N. the branching factor is 2 because each time it is returning  fib(n-1) and fib(n-2) for each recursive call. 
+The time complexity of the ***Fibonacci(N) is O(2^N)*** . This is because the function is using recursion. The number of calls the recursion function executes is N. the branching factor is 2 because each time it is returning  fib(n-1) and fib(n-2) for each recursive call. 
 
 
 ![Imgur](https://i.imgur.com/P7Szd39.png)
