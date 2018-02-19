@@ -12,17 +12,17 @@ The time complexity of the ***Fibonacci(N) is O(2^N)*** . This is because the fu
 
 Code snippet showing how to calculate execution time for the Fibonacci function. Also shows how to create a data frame and create a line graph for diffrent execution times for each function.
 ```
-for (i in 1:length(q)) {
-    
+## calculate the execution time of the fibonacci function 
+for (i in 1:length(q)) {  
     time_fib=system.time(fibonacci(q[i]))
     time_fib=unname(time_fib[1])
     vec_fib <- c(vec_fib, time_fib) 
   }
-  
+## create the data frame of execution time for each function 
   tests <- data.frame("value"=x, "log"=vec_log)
   tes <- data.frame("value"=y, "sumlog"=vec_sumlog )
   test <- data.frame("value"=q, "fib"=vec_fib)
-  
+## create a line plot for each function execution time vs N  
   ggplot() + geom_line(data = tests, aes(x = value, y = log, color = "log")) +
     geom_line(data = tes, aes(x = value, y = sumlog, color = "sumlog"))+
     geom_line(data = test, aes(x = value, y = fib, color = "fib"))+
